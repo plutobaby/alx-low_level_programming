@@ -9,12 +9,18 @@
  * Return: Sum of n and m
  */
 
-int add(int n, int m)
+void print_alphabet_x10(void)
 
 {
-	int j;
-
-	j = n + m;
-	return (j);
-
+	char ch;
+	int n = 0;
+	while (n < 10)
+	{
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			_putchar(ch);
+		}
+		n++;
+		_putchar('\n');
+	}
 }
