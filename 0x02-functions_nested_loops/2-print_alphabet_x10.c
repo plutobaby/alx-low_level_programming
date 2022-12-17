@@ -1,21 +1,17 @@
 #include "main.h"
 
 /**
- * add - Entry point
- * Description: Add two integers and returns the result
- * @n: first integer input
- * @m: second integer input
+ * print_alphabet_x10 - Entry point
+ * Description:Print the alphabet 10 times in lowercase
  *
- * Return: Sum of n and m
+ * Return
  */
-
 void print_alphabet_x10(void)
-
 {
 	char ch;
 	int n = 0;
 	while (n < 10)
-	{
+	{	
 		for (ch = 'a'; ch <= 'z'; ch++)
 		{
 			_putchar(ch);
