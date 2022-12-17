@@ -11,6 +11,7 @@
 int print_last_digit(int j)
 {
 	int n;
+
 	n = j % 10;
 	if (n < 0)
 	{
